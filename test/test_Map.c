@@ -21,7 +21,7 @@ void test_destroyMap_should_return_all_resources(void){
     destroyMap(map);
 }
 
-void test_addMap_given_ali_should_add_in_slot_4(void){
+void xtest_addMap_given_ali_should_add_in_slot_4(void){
 	LinkedList *firstList;
     Student ali={.name="ali", .age=10};
     Map *map=createMap(10);
